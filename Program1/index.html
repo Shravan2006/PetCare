@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Care Appointment System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🐾 Pet Care Appointment System</h1>
+        <p class="subtitle">Book and manage your pet appointments</p>
+
+        <h2>Book Appointment</h2>
+
+        <form id="appointmentForm">
+
+            <label>Owner Name</label>
+            <input type="text" id="owner" placeholder="Enter owner name" required>
+
+            <label>Pet Name</label>
+            <input type="text" id="pet" placeholder="Enter pet name" required>
+
+            <label>Select Service</label>
+            <select id="service" required>
+                <option value="">Choose Service</option>
+                <option value="Vaccination">Vaccination</option>
+                <option value="Grooming">Grooming</option>
+                <option value="Checkup">Health Checkup</option>
+            </select>
+
+            <label>Appointment Date</label>
+            <input type="date" id="date" required>
+
+            <button type="submit">Book Appointment</button>
+
+        </form>
+
+        <p id="message"></p>
+
+        <h2>Appointment List</h2>
+
+        <button type="button" id="sortBtn">Sort by Date</button>
+
+        <div id="appointmentList"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

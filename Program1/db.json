@@ -1,0 +1,12 @@
+{
+  "appointments": [
+    {
+      "owner": "Shravan",
+      "pet": "Bruno",
+      "service": "Checkup",
+      "date": "2026-11-24",
+      "status": "Confirmed",
+      "id": "7c6gEBE"
+    }
+  ]
+}
